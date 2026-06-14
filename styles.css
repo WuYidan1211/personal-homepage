@@ -145,13 +145,6 @@ h3 {
   color: var(--muted);
 }
 
-.hero-school-logo {
-  display: block;
-  width: min(260px, 64vw);
-  height: auto;
-  margin: 0 0 28px;
-}
-
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
