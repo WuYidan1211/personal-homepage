@@ -145,6 +145,13 @@ h3 {
   color: var(--muted);
 }
 
+.hero-school-logo {
+  display: block;
+  width: min(260px, 64vw);
+  height: auto;
+  margin: 0 0 28px;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -197,14 +204,6 @@ h3 {
   object-fit: cover;
   border-radius: 6px;
   border: 1px solid var(--line);
-}
-
-.school-logo {
-  display: block;
-  width: 100%;
-  max-width: 260px;
-  margin: 0 auto 24px;
-  height: auto;
 }
 
 .profile-list {
