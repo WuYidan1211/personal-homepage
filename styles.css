@@ -313,7 +313,9 @@ h3 {
 
 .honor-grid article {
   display: grid;
-  gap: 8px;
+  gap: 4px;
+  padding: 16px 18px;
+  line-height: 1.45;
   border-left: 4px solid var(--green);
 }
 
@@ -327,6 +329,11 @@ h3 {
 
 .footer p {
   margin: 0;
+}
+
+.visitor-count {
+  margin-top: 8px;
+  font-size: 0.94rem;
 }
 
 @media (max-width: 900px) {
@@ -399,6 +406,10 @@ h3 {
   .compact-list p,
   .honor-grid article {
     padding: 18px;
+  }
+
+  .honor-grid article {
+    padding: 14px 16px;
   }
 
   .compact-list p {
